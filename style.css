@@ -1,0 +1,70 @@
+/* Ethan Marxen - WDD222 - 09/15/2025 */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Header + Nav */
+header {
+  display: flex; /* flexbox container */
+  justify-content: space-between; /* space between logo & nav */
+  align-items: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex; /* flex container */
+  list-style: none;
+  gap: 1rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: #f4f4f4;
+}
+
+/* Gallery Section */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+
+.art-card {
+  flex: 1 1 200px; /* flex-grow, flex-shrink, flex-basis */
+  background: #eee;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #333;
+  color: #fff;
+  margin-top: 2rem;
+}
