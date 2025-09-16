@@ -55,7 +55,7 @@ nav a.active {
   color: #000;
 }
 
-/* Main content */
+/* Main */
 main {
   flex: 1;
   display: flex;
@@ -64,7 +64,24 @@ main {
   padding: 20px;
 }
 
-/* Story cards container */
+/* Slideshow placeholder */
+.slideshow {
+  background: #fff;
+  color: #333;
+  border-radius: 12px;
+  padding: 40px;
+  width: 80%;
+  max-width: 800px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.slide {
+  margin: 15px 0;
+  font-size: 1.2rem;
+}
+
+/* Story cards */
 .stories-container {
   display: flex;
   flex-wrap: wrap;
@@ -74,7 +91,6 @@ main {
   width: 100%;
 }
 
-/* Individual story card */
 .story-card {
   background: #fff;
   color: #333;
@@ -127,4 +143,3 @@ footer {
   font-size: 0.9rem;
   margin-top: auto;
 }
-
