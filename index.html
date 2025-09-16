@@ -4,105 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TalleyMark Art</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #65000b; /* Rosewood */
-      color: #f8f8f8;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-
-    /* Header */
-    header {
-      background-color: #000;
-      padding: 10px; /* smaller */
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-
-    header img {
-      max-height: 60px; /* shrink logo */
-    }
-
-    /* Navigation */
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 30px;
-      margin: 20px 0;
-    }
-
-    nav a {
-      background-color: #000;
-      color: #fff;
-      padding: 15px 30px; /* bigger buttons */
-      text-decoration: none;
-      border-radius: 5px;
-      font-weight: bold;
-      transition: background-color 0.3s;
-    }
-
-    nav a:hover {
-      background-color: #333;
-    }
-
-    /* Slideshow box */
-    .slideshow {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      margin: 20px;
-    }
-
-    .slideshow-box {
-      width: 80%;
-      max-width: 900px;
-      height: 500px;
-      background-color: #fff;
-      border-radius: 10px;
-      box-shadow: 0 0 15px rgba(0,0,0,0.5);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      color: #000;
-      font-size: 1.2rem;
-    }
-
-    /* Footer */
-    footer {
-      background-color: #000;
-      color: #fff;
-      text-align: center;
-      padding: 15px;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header>
-    <img src="TalleyMark.png" alt="TalleyMark Logo">
+  <!-- Ethan Marxen | WDD222 | Sept 2025 -->
+
+  <!-- Header with Logo -->
+  <header class="site-header">
+    <img src="TalleyMark.png" alt="TalleyMark Logo" class="logo">
   </header>
 
-  <nav>
-    <a href="#">Home</a>
-    <a href="#">Gallery</a>
-    <a href="#">Stories</a>
-    <a href="#">Shop</a>
-    <a href="#">Contact</a>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="stories.html">Stories</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
   </nav>
 
-  <main class="slideshow">
+  <!-- Main Content -->
+  <main class="content">
     <div class="slideshow-box">
-      Slideshow of artwork will go here
+      <p>Slideshow of artwork will go here.</p>
     </div>
   </main>
 
-  <footer>
-    &copy; 2025 TalleyMark. All rights reserved.
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>&copy; 2025 TalleyMark Art. All Rights Reserved.</p>
   </footer>
+
 </body>
 </html>
+
