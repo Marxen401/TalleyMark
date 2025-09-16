@@ -87,3 +87,49 @@ body {
   font-size: 0.9rem;
 }
 
+/* Stories Page Layout */
+.stories-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+}
+
+/* Card Styling */
+.story-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.story-card h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.story-card p {
+  color: #555;
+}
+
+.story-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: #2c2c2c;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.story-card a:hover {
+  background: #444;
+}
+
+/* Hover effect for cards */
+.story-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+}
