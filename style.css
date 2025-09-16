@@ -1,45 +1,50 @@
 /* Ethan Marxen - WDD222 - 09/15/2025 */
 
-/* Base Styles */
+/* Base */
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  line-height: 1.6;
   background: #65000B; /* Rosewood Red */
-  color: #fff;
+  color: #000;
 }
 
 /* Header */
-header {
+.site-header {
+  background: #000;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.logo-container {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
-  padding: 1rem;
-  background: #65000B;
 }
 
 .logo-img {
-  max-width: 200px;
-  margin-bottom: 1rem;
+  max-width: 250px;
 }
 
 /* Navigation */
 .nav-links {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   list-style: none;
   gap: 1rem;
-  padding: 0;
+  padding: 1rem 0;
   margin: 0;
 }
 
 .nav-links li a {
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 1rem 2rem; /* bigger boxes */
   background: #000;
-  border: 2px solid gold;
+  border: 3px solid gold;
   color: #fff;
   text-decoration: none;
-  border-radius: 5px;
+  font-size: 1.2rem;
+  border-radius: 6px;
   transition: 0.3s;
 }
 
@@ -48,38 +53,22 @@ header {
   color: #000;
 }
 
-/* Hero Section */
-.hero {
-  text-align: center;
-  padding: 3rem 1rem;
-}
-
-/* Gallery Section */
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem;
-  padding: 2rem;
-}
-
-.art-card {
-  flex: 1 1 200px;
-  background: #000;
-  border: 2px solid gold;
-  color: #fff;
-  padding: 2rem;
-  text-align: center;
+/* Main Slideshow Box */
+.slideshow-box {
+  background: #fff;
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 3rem;
   border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
 }
 
 /* Footer */
 footer {
-  text-align: center;
-  padding: 1rem;
   background: #000;
   color: #fff;
-  border-top: 2px solid gold;
-  margin-top: 2rem;
+  text-align: center;
+  padding: 1rem;
+  border-top: 3px solid gold;
 }
-
