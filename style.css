@@ -225,4 +225,20 @@ And here’s the **CSS (style.css)** additions you’ll need for the card layout
 .card .button:hover {
   background: #004d99;
 }
+/* === Fix for Projects Page Navigation === */
+nav ul {
+  list-style: none; /* remove bullets */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+nav ul li {
+  margin: 0;
+  padding: 0;
+}
+
 ```
