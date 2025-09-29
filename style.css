@@ -240,5 +240,25 @@ nav ul li {
   margin: 0;
   padding: 0;
 }
+/* Projects Page Card Layout */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;   /* allows cards to move onto new lines */
+  justify-content: center; /* centers the row of cards */
+  gap: 20px;         /* space between cards */
+  padding: 20px;
+}
+
+.card {
+  flex: 1 1 250px;   /* responsive width: min 250px, grow if space allows */
+  max-width: 300px;  /* keeps them from being too wide */
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+}
 
 ```
